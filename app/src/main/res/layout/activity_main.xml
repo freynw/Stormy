@@ -39,26 +39,25 @@
         tools:text="at 5.00pm at will be" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/locationLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/timeLabel"
         android:layout_centerHorizontal="true"
         android:paddingBottom="40dp"
-        android:text="locationLabel"
+        android:text="Alcatraz Island, CA"
         android:textColor="@android:color/white"
-        android:textSize="24sp"
-        tools:text="Alcatraz Island, CA" />
+        android:textSize="24sp" />
 
     <ImageView
         android:id="@+id/iconImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView3"
+        android:layout_alignTop="@+id/locationLabel"
         android:layout_marginEnd="12dp"
         android:layout_marginRight="12dp"
-        android:layout_toLeftOf="@+id/textView3"
-        android:layout_toStartOf="@+id/textView3"
+        android:layout_toLeftOf="@+id/locationLabel"
+        android:layout_toStartOf="@+id/locationLabel"
         app:srcCompat="@drawable/cloudy_night" />
 
     <LinearLayout
@@ -81,9 +80,9 @@
                 android:id="@+id/humidityLabel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="HUMIDITY"
                 android:textAlignment="center"
-                android:textColor="#80ffffff"
-                tools:text="HUMIDITY" />
+                android:textColor="#80ffffff" />
 
             <TextView
                 android:id="@+id/humidityValue"
@@ -110,9 +109,9 @@
                 android:id="@+id/precipLabel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="RAIN/SNOW"
                 android:textAlignment="center"
-                android:textColor="#80FFFFFF"
-                tools:text="RAIN/SNOW" />
+                android:textColor="#80FFFFFF" />
 
             <TextView
                 android:id="@+id/precipValue"

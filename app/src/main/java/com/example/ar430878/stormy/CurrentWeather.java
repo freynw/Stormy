@@ -21,7 +21,7 @@ public class CurrentWeather {
         return mIcon;
     }
 
-    public void setmIcon(String mIcon) {
+    public void setIcon(String mIcon) {
         this.mIcon = mIcon;
     }
 
@@ -80,8 +80,8 @@ public class CurrentWeather {
         this.mTime = mTime;
     }
 
-    public double getTemperature() {
-        return mTemperature;
+    public int getTemperature() {
+        return (int)Math.round(mTemperature);
     }
 
     public void setTemperature(double mTemperature) {
